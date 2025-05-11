@@ -7,7 +7,10 @@
     <link rel="stylesheet" href="./static/css/global.css" />
     <link rel="stylesheet" href="./static/css/about.css" />
     <script type="module" src="./static/js/utils/loadLayout.js"></script>
-    <script src="./test.js"></script>
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self';"
+    />
   </head>
 
   <body class="full">
@@ -17,7 +20,7 @@
         <div class="about-image">
           <img
             width="100%"
-            src="https://opencart4.magentech.com/themes/so_xtore/image/catalog/banners/about-us.jpg"
+            src="./static/imgs/about-us.jpg"
             alt="store image"
           />
           <br /><br />
