@@ -308,6 +308,7 @@ hr {
   width: 100%;
   height: 100px;
   transition: 0.3s ease;
+  object-fit: cover;
 }
 .category img {
   cursor: pointer;
